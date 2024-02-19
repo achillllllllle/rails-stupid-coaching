@@ -1,0 +1,17 @@
+<div class="card text-dark mb-3 w-25" style="max-width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title"><%= @ask %></h5>
+    <p class="card-text fst-italic">-You</p>
+  </div>
+</div>
+
+<div class="card text-dark bg-warning mb-3" style="max-width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title"><%= @answer %></h5>
+    <p class="card-text fst-italic">-Your coach</p>
+  </div>
+</div>
+
+<div class="remove-underline">
+  <%= link_to "Ask new question!", ask_path %>
+</div>
